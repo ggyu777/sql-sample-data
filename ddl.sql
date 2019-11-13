@@ -1,3 +1,14 @@
+
+-- This command is not necessary
+drop database if exists universityenterprise;
+
+
+create database IF NOT EXISTS UniversityEnterprise DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+
+use  UniversityEnterprise;
+
+
+
 create table classroom
 	(building		varchar(15),
 	 room_number		varchar(7),
